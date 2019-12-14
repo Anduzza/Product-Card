@@ -1,0 +1,35 @@
+@import url("components/card.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Source+Sans+Pro:300,400,600,700,900&display=swap");
+
+
+body {
+	background-image:url("../img/oranges.jpg");
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	margin: 30px auto;
+	width: 700px;
+	background-color: white;
+	background-size:cover;
+	padding:20px;
+	border-radius: 6px;
+}
+ @media (max-width: 960px){
+ 	.container{
+ 		width:700px;
+ 	}
+ }
+
+ @media (max-width: 720px) {
+ 	.container{
+ 		width:500px;
+ 	}
+ }
+
+ @media (max-width: 540px){
+ 	.container{
+ 		width:400px;
+ 	}
+ }
